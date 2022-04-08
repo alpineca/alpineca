@@ -2594,7 +2594,7 @@ input, select, textarea {
 			body, input, textarea, select {
 				font-size: 14pt;
 			}
-
+			
 			h2 {
 				font-size: 1.5em;
 				letter-spacing: 0;
@@ -2610,6 +2610,10 @@ input, select, textarea {
 			ul.icons a {
 				width: 2em;
 				font-size: 1.25em;
+			}
+			.social-icons-row{
+				margin: auto;
+				display: block;
 			}
 
 		/* Main */
@@ -2640,4 +2644,19 @@ input, select, textarea {
 					margin-top: 0;
 				}
 
+	}
+
+	.social-icons-wrapper{
+		border: #222729 1px solid;
+		display: flex;
+	}
+	.social-icon{
+		width: 100px;
+		height: 100px;
+		margin: auto;
+		margin-bottom: 30px;
+	}
+	.social-icons-row{
+		margin: auto;
+		display: contents;
 	}
