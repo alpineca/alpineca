@@ -2594,7 +2594,7 @@ input, select, textarea {
 			body, input, textarea, select {
 				font-size: 14pt;
 			}
-			
+
 			h2 {
 				font-size: 1.5em;
 				letter-spacing: 0;
@@ -2611,9 +2611,13 @@ input, select, textarea {
 				width: 2em;
 				font-size: 1.25em;
 			}
-			.social-icons-row{
+			.social-icon-mobile {
+				width: 60px !important;
+				height: 60px !important;
 				margin: auto;
-				display: block;
+				margin-bottom: 30px;
+				box-shadow: 5px 5px 8px #797878;
+				display: flex;
 			}
 
 		/* Main */
@@ -2647,14 +2651,15 @@ input, select, textarea {
 	}
 
 	.social-icons-wrapper{
-		border: #222729 1px solid;
 		display: flex;
 	}
-	.social-icon{
+	.social-icon {
 		width: 100px;
 		height: 100px;
 		margin: auto;
 		margin-bottom: 30px;
+		box-shadow: 5px 5px 8px #797878;
+		display: flex;
 	}
 	.social-icons-row{
 		margin: auto;
